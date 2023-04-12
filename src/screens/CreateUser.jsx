@@ -1,5 +1,5 @@
 import { View } from "react-native";
-import { Text, TextInput } from "react-native-paper";
+import { Button, Text, TextInput } from "react-native-paper";
 
 
 
@@ -11,8 +11,9 @@ export default function CreateUser() {
             <View>
                 <TextInput
                     label={"Nome"}
-                    mode={"outlined"}
+                    mode="outlined"
                 />
+                <Button>Cadastrar</Button>
             </View>
         </View>
     )
